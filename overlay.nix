@@ -6,4 +6,5 @@ self: super:
   git-divergence = super.callPackage ./pkgs/git-divergence { };
   sshcb = super.callPackage ./pkgs/sshcb { };
   terraform-config-inspect = super.callPackage ./pkgs/terraform-config-inspect { };
+  upgrade-eks-workers = super.callPackage ./pkgs/upgrade-eks-workers { };
 }
